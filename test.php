@@ -35,5 +35,15 @@
 	 	var_dump($_SESSION);
 	 	echo '</pre>';
 	 }
+	 
+	 if (isset($_GET['validate'])) {
+	 	 require_once('code/validation/ivalidator.php');
+	 	 
+	 	 try {
+	 	 	 Validator::check('Value', $_GET['value'], IValidatorFactory::get('Range',5,32));
+		 } catch (ValidationException $e) {
+		 	 	 echo $e->getMessage();
+		 }
+	 }
     
 ?>

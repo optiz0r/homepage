@@ -13,6 +13,7 @@
 <head>
 	<title><?php echo $_template['title']; ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo $_meta['base-dir']; ?>/resources/normal.css" />
+	<script language="javascript" type="text/javascript" src="<?php echo $_meta['base-dir']; ?>/resources/email.js" />
 <?php
 	// If we have a redirection, implement a meta refresh here
 	if( $_template['redirect-to'] ) {
@@ -36,7 +37,7 @@
 		<strong>Navigation</strong>
 		<ul>
 			<li><a href="<?php echo $_req->construct('page','home'); ?>" title="Homepage">Home</a></li>
-			<li><a href="<?php echo $_req->construct('page','cv'); ?>" title="Curriculum Vitae">CV</a></li>
+			<li><a href="<?php echo $_req->construct('page','cv'); ?>" title="Curriculum Vitae">Curriculum Vitae</a></li>
 <?php if( $_session->is_logged_in() ) { ?>
 			<li><a href="<?php echo $_req->construct('page','logout'); ?>" title="Logout">Logout</a></li>
 <?php } ?>

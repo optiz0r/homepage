@@ -1,7 +1,7 @@
-<IfModule mod_rewrite.c>
+# Magic Quotes are the Root-of-all-Evil and must be burned at the stake.
+php_flag magic_quotes_gpc off
 
-	# Magic Quotes are the Root-of-all-Evil and must be burned at the stake.
-	php_flag magic_quotes_gpc off
+<IfModule mod_rewrite.c>
 
 	# Enable mod_rewrite for pretty urls
 	RewriteEngine on

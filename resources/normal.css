@@ -24,7 +24,7 @@ div.sidebar {
 
 div.page {
 	margin: 1em;
-	margin-left: 9em;
+	margin-left: 15em;
 }
 
 div.footer {
@@ -79,6 +79,10 @@ div.quote blockquote {
 	background-color: lightyellow;
 }
 
+img.at {
+	height: 1em;
+	width: 1em;
+}
 
 /*
 	Dialog boxes
@@ -130,4 +134,18 @@ p.loginform label {
 }
 p.loginform input {
 	float:				right;
+}
+
+
+/*
+	Homepage
+*/
+
+img.bio {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border: 1px solid grey;
+	padding: 0.2em;
 }
