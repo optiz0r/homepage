@@ -13,7 +13,7 @@
 <head>
 	<title><?php echo $_template['title']; ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo $_meta['base-dir']; ?>/resources/normal.css" />
-	<script language="javascript" type="text/javascript" src="<?php echo $_meta['base-dir']; ?>/resources/email.js" />
+	<script language="javascript" type="text/javascript" src="<?php echo $_meta['base-dir']; ?>/resources/email.js"></script>
 <?php
 	// If we have a redirection, implement a meta refresh here
 	if( $_template['redirect-to'] ) {
@@ -29,15 +29,15 @@
 <body>
 	<div class="header">
 		<h1>Ben Roberts</h1>
-		<strong>MEng Computer Science @ ecs.soton.ac.uk</strong>
+		<p class="subtitle">MEng Computer Science @ ecs.soton.ac.uk</p>
 	</div>
 
 	
 	<div class="sidebar">
-		<strong>Navigation</strong>
 		<ul>
 			<li><a href="<?php echo $_req->construct('page','home'); ?>" title="Homepage">Home</a></li>
-			<li><a href="<?php echo $_req->construct('page','cv'); ?>" title="Curriculum Vitae">Curriculum Vitae</a></li>
+			<li><a href="<?php echo $_meta['base-dir']; ?>/files/BenRobertsCv.pdf" title="Curriculum Vitae">Curriculum Vitae</a></li>
+			<li><a href="<?php echo $_req->construct('page','projects'); ?>" title="Projects">Projects</a></li>
 <?php if( $_session->is_logged_in() ) { ?>
 			<li><a href="<?php echo $_req->construct('page','logout'); ?>" title="Logout">Logout</a></li>
 <?php } ?>
@@ -57,7 +57,7 @@
 				}
 			}
 		?>
-		<h1><?php echo $_template['title']; ?></h1>
+		<h2><?php echo $_template['title']; ?></h2>
 		<?php
 			// Include the main page content
 			echo $_template['page'];
@@ -74,7 +74,12 @@
 	</div>
 	
 	<div class="footer">
-		Footer, rar rar rar.
+		<p>
+			Copyright &copy; 2008 by Ben Roberts. All rights reserved unless otherwise specified.
+		</p>
+		<p>
+			This file was last modified <?php echo date("j F Y", filemtime($_page)); ?>.
+		</p>
 	</div>
 
 </body>

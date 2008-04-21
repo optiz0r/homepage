@@ -5,11 +5,11 @@
 body {
 	margin: 0em;
 	padding: 0em;
-	font-family: verdana, tahoma, sans-serif;
+	font-family: verdana, helvetica, tahoma, sans-serif;
 }
 
 div.header {
-	border-bottom: 1px solid grey;
+	/*border-bottom: 1px solid grey;*/
 	padding-bottom: 0.5em;
 	margin: 0.5em 1em 1em 1em;
 }
@@ -41,7 +41,7 @@ div.footer {
 }
 
 div.sidebar ul {
-	list-style: circle;
+	list-style: none;
 }
 
 /*
@@ -52,6 +52,27 @@ div.header h1 {
 	font-size: 3.0em;
 	margin: 0.2em;
 	margin-left: 0em;
+	color: dimgrey;
+}
+
+p.subtitle {
+	font-weight: bold;
+	font-style: italic;
+	color: dimgrey;
+}
+
+h2 {
+	color: steelblue;
+}
+
+a {
+	text-decoration: underline;
+	color: steelblue;
+}
+
+a:visited {
+	color: dimgrey;
+	text-decoration: none;
 }
 
 
@@ -134,18 +155,4 @@ p.loginform label {
 }
 p.loginform input {
 	float:				right;
-}
-
-
-/*
-	Homepage
-*/
-
-img.bio {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	
-	border: 1px solid grey;
-	padding: 0.2em;
 }
