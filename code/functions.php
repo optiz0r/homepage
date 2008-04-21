@@ -37,6 +37,8 @@
 		static $Dir;
 		if (!isset($Dir))
 			$Dir = dirname($_SERVER['SCRIPT_NAME']);
+			// Doesnt cope well with being at the site root
+			if ($Dir == "/") $Dir = "";
 		return $Dir;
 	}
 	function get_fs_base_dir() {
