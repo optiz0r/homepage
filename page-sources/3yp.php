@@ -21,7 +21,7 @@
 	<ul>
 		<li><a href="<?php echo $_meta['base-dir']; ?>/files/rsdss_1.01_i386.deb" title="Ubuntu x86 deb package">rsdss-1.01-i386.deb</a></li>
 		<li><a href="<?php echo $_meta['base-dir']; ?>/files/rsdss-1.0.1-i386.tar.bz2" title="Linux x86 binary archive">rsdss-1.0.1-i386.tar.bz2</a></li>
-		<li><a href="<?php echo $_meta['base-dir']; ?>/files/rsdss_1.0.1_win32.zip" title="Windows 32-bit zip archive">rsdss-1.0.1-win32.zip</a></li>
+		<li><a href="<?php echo $_meta['base-dir']; ?>/files/rsdss-1.0.1-win32.zip" title="Windows 32-bit zip archive">rsdss-1.0.1-win32.zip</a></li>
 	</ul>
 </p>
 	
