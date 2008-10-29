@@ -11,8 +11,7 @@
 <p>
 	I am still working on my project, but in the mean time I have some binaries available for user testing.
 	Please report any bugs you might find to <a href="https://dev.sihnon.net/bugs" title="Sihnon Bug Tracker">my bug tracker</a>.
-	(Note: The <a href="http://www.cacert.org" title="CACert Certification Authority">provider</a> of my ssl certificates does not
-	distribute their root CA certificate with firefox, so if you need to, please install their certificate.)
+	(Note: The <a href="http://www.startcom.org" title="StartCom Certification Authority">provider</a> of my SSL certificates does not yet have their root CA certificate distributed with Internet Explorer or Opera, so if you need to, please add them as a Trusted CA.)
 </p>
 <p>
 	These binaries are solely for testing purposes, and may not be redistributed from anywhere other than this site.
