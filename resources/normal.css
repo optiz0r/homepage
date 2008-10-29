@@ -25,6 +25,7 @@ div.sidebar {
 div.page {
 	margin: 1em;
 	margin-left: 15em;
+	max-width: 60em;
 }
 
 div.footer {
@@ -155,4 +156,12 @@ p.loginform label {
 }
 p.loginform input {
 	float:				right;
+}
+
+/*
+ 	Images
+*/
+img.avatar {
+	float: right;
+	vertical-align: top;
 }
