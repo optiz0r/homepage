@@ -13,8 +13,8 @@
 <p>
 	You can install this overlay using layman. Add the the
 	<a href="https://dev.sihnon.net/projects/gentoo-overlay/layman.xml" title="Sihnon overlay url">Sihnon overlay url</a> 
-	to your overlays variable in <code>/etc/layman/layman.cfg</code>. Then update 
-	the list of overlays with <code class="root">layman -l</code> and add the Sihnon overlay 
+	to your overlays variable in <code class="file">/etc/layman/layman.cfg</code>. Then update 
+	the list of overlays with <code class="root">layman -L</code> and add the Sihnon overlay 
 	with <code class="root">layman -a sihnon</code>.
 </p>
 

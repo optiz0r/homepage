@@ -73,7 +73,7 @@ a {
 
 a:visited {
 	color: dimgrey;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 
@@ -164,4 +164,17 @@ p.loginform input {
 img.avatar {
 	float: right;
 	vertical-align: top;
+}
+
+/*
+ *  
+ */
+code.root {
+    color: crimson;
+    font-weight: bold;
+}
+
+code.file {
+    color: steelblue;
+    font-weight: bold;
 }
