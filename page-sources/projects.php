@@ -16,7 +16,7 @@
     <dt><a href="https://wiki.sihnon.net/" title="Sihnon Wiki">Sihnon Wiki</a></dt>
     <dd>Documentation for various systems I've configured; mostly for personal reference, but may be useful to others.</dd>
 
-    <dt><a href="https://git.sihnon.net/cgit.cgi/dev.git/tree/handbrake-cluster" title="HandBrakeCluster">HandBrakeCluster</a></dt>
+    <dt><a href="https://git.sihnon.net/cgit.cgi/handbrake-cluster.git" title="HandBrakeCluster">HandBrakeCluster</a></dt>
     <dd>A collection of perl scripts to use HandBrakeCLI to batch rip DVD images using multiple machines.</dd>
 
     <dt><a href="https://git.sihnon.net/cgit.cgi/handbrake-cluster-webui.git/" title="HandBrakeCluster WebUI">HandBrakeCluster WebUI</a></dt>
