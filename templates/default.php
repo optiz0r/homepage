@@ -75,7 +75,7 @@
 	
 	<div class="footer">
 		<p>
-			Copyright &copy; 2008 by Ben Roberts. All rights reserved unless otherwise specified.
+			Copyright &copy; 2008-2010 by Ben Roberts. All rights reserved unless otherwise specified.
 		</p>
 		<p>
 			This file was last modified <?php echo date("j F Y", filemtime($_page)); ?>.
