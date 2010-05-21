@@ -164,6 +164,9 @@ p.loginform input {
 img.avatar {
 	float: right;
 	vertical-align: top;
+    border: 1px solid grey;
+    padding: 0.1em;
+    margin: 0.77777775em;
 }
 
 /*
