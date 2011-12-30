@@ -29,7 +29,14 @@ value="default"
 type=string
 value=/dev/shm/homepage
 
+[templates.tmp_path]
+type="string"
+value="/var/tmp/homepage/"
+
 [debug.display_exceptions]
 type=bool
 value=1
 
+[auth]
+type="string"
+value="FlatFile"
