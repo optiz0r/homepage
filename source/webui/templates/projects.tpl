@@ -8,6 +8,9 @@
     
     <dt><a href="{$base_uri}projects/sabayon-crepo/" title="Sabayon Community Repositories">Sabayon Entropy Community Repositories</a></dt>
     <dd>Personally developed software, or miscellaneous packages for Sabayon Linux that can't be found in the main repositories.</dd>
+    
+    <dt><a href="{$base_uri}projects/sihnon-framework/" title="Sihnon Framework">Sihnon Framework</a></dt>
+    <dd>PHP Framework for rapid web application development.</dd>
 
     <dt><a href="{$base_uri}projects/ripping-cluster/" title="RippingCluster WebUI">RippingCluster WebUI</a></dt>
     <dd>Web-based UI for transcoding DVDs on a cluster of multiple nodes.</dd>
