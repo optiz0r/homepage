@@ -75,7 +75,19 @@
     
             <footer>
                 <p>
-                    Copyright &copy; 2012 by Ben Roberts. All rights reserved unless otherwise specified.
+                    Powered by 
+                    <a href="https://github.com/optiz0r/homepage/" title="Homepage">Homepage</a>
+                    and <a href="https://github.com/optiz0r/sihnon-php-lib/" title="Sihnon PHP Library">Sihnon PHP Lib</a>
+                    written by Ben Roberts.
+                    <br />
+                     
+                    This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://benroberts.net" property="cc:attributionName" rel="cc:attributionURL">Ben Roberts</a>
+                    is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+                    <br />
+                    
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">
+                        <img alt="Creative Commons Licence" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" />
+                    </a>
                 </p>
             </footer>
         </div>
