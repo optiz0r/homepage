@@ -22,4 +22,23 @@
             <li><a href="{$base_uri}projects/3yp/" title="Third Year Project">Third Year Project</a></li>
         </ul>
     </li>
+    
+    <li class="dropdown" data-dropdown="dropdown">
+        <a href="#" class="dropdown-toggle" title="Code">Code</a>
+        <ul class="dropdown-menu">
+            <li><a href="https://git.sihnon.net/" title="Sihnon Git Repository Browser">Sihnon Git Repository Browser</a></li>
+            <li><a href="https://subversion.sihnon.net/" title="Sihnon SVN Repository Browser">Sihnon Subversion Repository Browser</a></li>
+            <li><a href="http://github.com/optiz0r/" title="GitHub Repositores">GitHub Repositories</a></li>
+        </ul>
+    </li>
+    
+    <li class="dropdown" data-dropdown="dropdown">
+        <a href="#" class="dropdown-toggle" title="Social Media">Social Media</a>
+        <ul class="dropdown-menu">
+            <li><a href="https://twitter.com/optiz0r" title="optiz0r on Twitter">Twitter</a></li>
+            <li><a href="https://plus.google.com/104283756158326784792/about" title="Ben Roberts on Google+">Google+</a></li>
+            <li><a href="http://www.linkedin.com/pub/ben-roberts/19/791/572" title="Ben Roberts on LinkedIn">LinkedIn</a></li>
+            <li><a href="http://www.facebook.com/profile.php?id=286108101" title="Ben Roberts on Facebook">Facebook</a></li>
+        </ul>
+    </li>
 </ul>
