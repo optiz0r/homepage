@@ -1,8 +1,8 @@
-<h2>Curriculum Vitae</h2>
+<h2 class="no-print">Curriculum Vitae</h2>
 
 <div class="container">
 
-    <div class="row">
+    <div class="row no-print">
         <div class="span4 column">
             <h3>Download</h3>
         </div>
@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="personal-info">
         <div class="span4 column">
             <h3>Personal Information</h3>
         </div>
@@ -38,7 +38,7 @@
         </div>
     </div>
         
-    <div class="row">
+    <div class="row" id="employment">
         <div class="span4 column">
             <h3>Employment</h3>
         </div>
@@ -97,7 +97,7 @@
                     </p>
                 </li>
                 
-                <li>
+                <li class="no-print">
                     <h4>
                         Electronics and Computer Science Faculty, University of Southampton
                         <small>September 2006 - June 2010</small>
@@ -113,7 +113,7 @@
         </div>
     </div>
     
-    <div class="row">
+    <div class="row" id="certification">
         <div class="span4 column">
             <h3>Certification</h3>
         </div>
@@ -135,7 +135,7 @@
         </div>
     </div>
         
-    <div class="row">
+    <div class="row" id="education">
         <div class="span4 column">
             <h3>Education</h3>
         </div>
@@ -210,7 +210,7 @@
         </div>
     </div>
         
-    <div class="row">
+    <div class="row" id="skills">
         <div class="span4 column">
             <h3>Skills</h3>
         </div>
@@ -296,7 +296,7 @@
         </div>
     </div>
         
-    <div class="row">
+    <div class="row" id="interests">
         <div class="span4 column">
             <h3>Interests</h3>
         </div>

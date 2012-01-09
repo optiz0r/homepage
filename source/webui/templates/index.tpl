@@ -29,7 +29,7 @@
 
     </head>
     <body>
-        <div class="topbar">
+        <div class="topbar no-print">
             <div class="topbar-inner">
                 <div class="container-fluid">
                     {$page->include_template('navigation')}
@@ -70,10 +70,12 @@
                     </div><!-- /messages -->
                 {/if}
 
-                {$page_content}
+                <div id="page_content">
+                    {$page_content}
+                </div>
             </div>
     
-            <footer>
+            <footer class="no-print">
                 <p>
                     Powered by 
                     <a href="https://github.com/optiz0r/homepage/" title="Homepage">Homepage</a>
