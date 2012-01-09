@@ -46,3 +46,11 @@ img.at {
     height: 1em;
     width: 1em;
 }
+
+/*
+    Homepage
+*/
+ol.employment,ol.education {
+    list-style: none;
+    margin-left: 0px;
+}
