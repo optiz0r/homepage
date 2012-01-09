@@ -2,7 +2,7 @@
 
 <div class="container">
 
-    <div class="row">
+    <div class="row no-print">
         <div class="span4 column">
             <h3>Download</h3>
         </div>

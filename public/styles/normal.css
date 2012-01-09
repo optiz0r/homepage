@@ -5,52 +5,70 @@
 @import url('http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css'); 
 @CHARSET "UTF-8";
 
-body {
-    margin: 0em;
-    margin-top: 60px;
-    padding-top: 40px;
-    padding: 0em;
-    font-family: verdana, helvetica, sans-serif;
-    background: #F7F7F7;
+@media all {
+    body {
+        margin: 0em;
+        margin-top: 60px;
+        padding-top: 40px;
+        padding: 0em;
+        font-family: verdana, helvetica, sans-serif;
+        background: #F7F7F7;
+    }
+    
+    a {
+        color: gray;
+    }
+    
+    label {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    footer {
+        padding: 2em;
+        font-size: smaller;
+        font-style: italic;
+        color: #333333;
+        text-align: center;
+    }
+    
+    /*
+        Images
+    */
+    img.avatar {
+        float: right;
+        vertical-align: top;
+        border: 1px solid grey;
+        padding: 0.2em;
+        margin: 0.75em;
+    }
+    
+    img.at {
+        height: 1em;
+        width: 1em;
+    }
+    
+    /*
+        Homepage
+    */
+    ol.employment,ol.education {
+        list-style: none;
+        margin-left: 0px;
+    }
 }
 
-a {
-    color: gray;
-}
-
-label {
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-footer {
-    padding: 2em;
-    font-size: smaller;
-    font-style: italic;
-    color: #333333;
-    text-align: center;
-}
-
-/*
-    Images
-*/
-img.avatar {
-    float: right;
-    vertical-align: top;
-    border: 1px solid grey;
-    padding: 0.2em;
-    margin: 0.75em;
-}
-
-img.at {
-    height: 1em;
-    width: 1em;
-}
-
-/*
-    Homepage
-*/
-ol.employment,ol.education {
-    list-style: none;
-    margin-left: 0px;
+@media print {
+    
+    .no-print {
+        display: none;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    #page_content {
+        margin: 1.5em;
+    }
+    
 }
