@@ -68,7 +68,11 @@
     }
     
     #page_content {
-        margin: 1.5em;
+        margin-left: 1.5em;
+    }
+    
+    #skills {
+        page-break-before: always;
     }
     
 }
