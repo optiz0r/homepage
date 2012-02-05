@@ -8,7 +8,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="span8 column">
+        <div class="span7 column">
             <h3>Features</h3>
             <ul>
                 <li>Customisable list of Services and Sites.</li>
@@ -17,13 +17,13 @@
                 <li>Full admin UI.</li>
             </ul>
         </div>
-        <div class="span8 column">
-            <img class="span8" src="{$base_uri}images/status-board/overview.png" alt="StatusBoard Overview" />
+        <div class="span5 column">
+            <img class="span5" src="{$base_uri}images/status-board/overview.png" alt="StatusBoard Overview" />
         </div>
     </div>
     
     <div class="row">
-        <div class="span16">
+        <div class="span12">
             <h3>Source</h3>
             <p>
                 View or clone a copy of the Git repositories from one of the mirrors listed below:

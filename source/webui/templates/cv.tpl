@@ -1,12 +1,12 @@
 <h2 class="no-print">Curriculum Vitae</h2>
 
-<div class="container">
+<div class="container" id="cv">
 
     <div class="row no-print">
-        <div class="span4 column">
+        <div class="span2 column">
             <h3>Download</h3>
         </div>
-        <div class="span12 column">
+        <div class="span10 column">
             <p>
                 <a href="{$base_uri}files/BenRobertsCv.pdf" title="Ben Roberts' CV">
                     <img src="{$base_uri}images/acrobat.png" alt="Download PDF copy of Ben Roberts' CV" style="width: 3em; height: 3em; vertical-align: middle;" />
@@ -18,10 +18,10 @@
     </div>
 
     <div class="row" id="personal-info">
-        <div class="span4 column">
+        <div class="span2 column">
             <h3>Personal Information</h3>
         </div>
-        <div class="span12 column">
+        <div class="span10 column">
             <dl>
                 <dt>Full Name</dt>
                 <dd><p>Benjamin Austin Roberts</p></dd>
@@ -39,10 +39,10 @@
     </div>
         
     <div class="row" id="employment">
-        <div class="span4 column">
+        <div class="span2 column">
             <h3>Employment</h3>
         </div>
-        <div class="span12 column">
+        <div class="span10 column">
             <ol class="employment">
                 <li>
                     <h4>
@@ -114,11 +114,11 @@
     </div>
     
     <div class="row" id="certification">
-        <div class="span4 column">
+        <div class="span2 column">
             <h3>Certification</h3>
         </div>
-        <div class="span12 column">
-            <table>
+        <div class="span10 column">
+            <table class="table">
                 <thead>
                     <tr>
                         <th>Certification</th>
@@ -136,17 +136,17 @@
     </div>
         
     <div class="row" id="education">
-        <div class="span4 column">
+        <div class="span2 column">
             <h3>Education</h3>
         </div>
-        <div class="span12 column">
+        <div class="span10 column">
             <ol class="education">
                 <li>
                     <h4>
                         University of Southampton
                         <small>October 2005 - June 2010</small>
                     </h4>
-                    <table>
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th>Subject</th>
@@ -173,7 +173,7 @@
                         <small>September 2003 - June 2005</small>
                     </h4>
                     
-                    <table>
+                    <table class="table">
                         <thead>
                             <tr>
                                 <th>Subject</th>
@@ -211,10 +211,10 @@
     </div>
         
     <div class="row" id="skills">
-        <div class="span4 column">
+        <div class="span2 column">
             <h3>Skills</h3>
         </div>
-        <div class="span12 column">
+        <div class="span10 column">
             <dl>
                 <dt>Networking<dt>
                 <dd>
@@ -297,10 +297,10 @@
     </div>
         
     <div class="row" id="interests">
-        <div class="span4 column">
+        <div class="span2 column">
             <h3>Interests</h3>
         </div>
-        <div class="span12 column">
+        <div class="span10 column">
             <p>
                 I am a supporter of the opensource movement, and try to use free/libre software
                 and code where I can. I also release all my code under free licenses where possible
