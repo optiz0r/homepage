@@ -247,7 +247,7 @@
                             <li>Installation, configuration and operation of Operating Systems (Linux [many distributions], Windows, Mac OS X).</li>
                             <li>Writing and maintaining Linux software packages and package repositories (Gentoo Portage, Sabayon Entropy)</li>
                             <li>System automation (Puppet, Molecule, Kickstart).</li>
-                            <li>Virtualisation (KVM, libvirt, VMWare)</li>
+                            <li>Virtualisation (KVM, libvirt, Ganeti, VMWare/ESX)</li>
                         </ul>
                     </p>
                     <p>
