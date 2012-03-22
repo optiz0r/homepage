@@ -49,10 +49,10 @@
                         Atos IT Services UK
                         <small>July 2010 - Present</small>
                     </h4>
-                    <h5>Graduate Technical Specialist</h5>
+                    <h5>Network Technical Specialist - Major Projects</h5>
                     <p>
                         Design and implementation of network solutions for Atos customers in the Transport and Financial
-                        Services industries.
+                        Services industries. 
                     </p>
                     <p>
                         Installed, configured and managed an out of band console service for remote management of core
