@@ -5,6 +5,7 @@
         
         <!-- JQuery //-->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/smoothness/jquery-ui.css" rel="Stylesheet" />        
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
         <!-- JQuery Plugins //-->
         <script type="text/javascript" src="{$base_uri}scripts/3rdparty/jquery.chained.js"></script>
@@ -13,6 +14,8 @@
         <script type="text/javascript" src="{$base_uri}scripts/3rdparty/less-1.1.5.min.js"></script>
         
         <!-- Bootstrap //-->
+        <link rel="stylesheet/less" href="{$base_uri}less/bootstrap.less" media="all" />
+        <link type="text/css" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet" />
         <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-alerts.js"></script>
         <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-twipsy.js"></script>
         <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-popover.js"></script>
@@ -21,25 +24,22 @@
         <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-modal.js"></script>
         
         <!-- Local //-->
-        <script type="text/javascript" src="{$base_uri}scripts/main.js"></script>
-        
-        <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/smoothness/jquery-ui.css" rel="Stylesheet" />        
-        <link rel="stylesheet/less" href="{$base_uri}less/bootstrap.less" media="all" />
         <link rel="stylesheet" type="text/css" href="{$base_uri}styles/normal.css" />
+        <script type="text/javascript" src="{$base_uri}scripts/main.js"></script>
 
     </head>
     <body>
-        <div class="topbar no-print">
-            <div class="topbar-inner">
+        <div class="navbar navbar-fixed-top no-print">
+            <div class="navbar-inner">
                 <div class="container-fluid">
                     {$page->include_template('navigation')}
-                </div><!-- /tobar-inner -->
+                </div><!-- /navbar-inner -->
             </div><!-- /container-fliud -->
         </div><!-- /topbar -->
 
         <div class="container">
             <div class="row">
-                <div class="span16">
+                <div class="span12">
                     <h1>
                         Ben Roberts
                         <small>MEng Computer Science @ ecs.soton.ac.uk</small>
@@ -80,11 +80,10 @@
                     Powered by 
                     <a href="https://github.com/optiz0r/homepage/" title="Homepage">Homepage</a>
                     and <a href="https://github.com/optiz0r/sihnon-php-lib/" title="Sihnon PHP Library">Sihnon PHP Lib</a>
-                    written by Ben Roberts.
+                    written by <a xmlns:cc="http://creativecommons.org/ns#" href="http://benroberts.net" property="cc:attributionName" rel="cc:attributionURL">Ben Roberts</a>.
                     <br />
                      
-                    This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://benroberts.net" property="cc:attributionName" rel="cc:attributionURL">Ben Roberts</a>
-                    is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+                    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
                     <br />
                     
                     <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">

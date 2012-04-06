@@ -2,15 +2,11 @@
  * StatusBoard normal stylesheet
  *
  */
-@import url('http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css'); 
 @CHARSET "UTF-8";
 
 @media all {
     body {
-        margin: 0em;
-        margin-top: 60px;
         padding-top: 40px;
-        padding: 0em;
         font-family: verdana, helvetica, sans-serif;
         background: #F7F7F7;
     }
@@ -54,6 +50,17 @@
     ol.employment,ol.education {
         list-style: none;
         margin-left: 0px;
+    }
+    
+    /*
+        CV
+    */
+    #cv div.row {
+        margin-bottom: 1.0em;
+    }
+    
+    #cv h4 {
+        margin-top: 0.75em;
     }
 }
 

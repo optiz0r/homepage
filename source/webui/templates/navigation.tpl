@@ -10,7 +10,10 @@
     </li>
     
     <li class="dropdown {if $requested_page == "projects"}active{/if}" data-dropdown="dropdown">
-        <a href="#" class="dropdown-toggle" title="Projects">Projects</a>
+        <a href="#" class="dropdown-toggle" title="Projects">
+            Projects
+            <b class="caret"></b>
+        </a>
         <ul class="dropdown-menu">
             <li><a href="{$base_uri}projects/" title="Projects Home">Home</a></li>
             <li><a href="https://wiki.sihnon.net/" title="Sihnon Wiki">Sihnon Wiki</a></li>
@@ -24,16 +27,22 @@
     </li>
     
     <li class="dropdown" data-dropdown="dropdown">
-        <a href="#" class="dropdown-toggle" title="Code">Code</a>
+        <a href="#" class="dropdown-toggle" title="Code">
+            Code
+            <b class="caret"></b>
+        </a>
         <ul class="dropdown-menu">
-            <li><a href="https://git.sihnon.net/" title="Sihnon Git Repository Browser">Sihnon Git Repository Browser</a></li>
-            <li><a href="https://subversion.sihnon.net/" title="Sihnon SVN Repository Browser">Sihnon Subversion Repository Browser</a></li>
             <li><a href="http://github.com/optiz0r/" title="GitHub Repositores">GitHub Repositories</a></li>
+            <li><a href="https://git.sihnon.net/" title="Sihnon Git Repository Browser">Git Repositories</a></li>
+            <li><a href="https://subversion.sihnon.net/" title="Sihnon SVN Repository Browser">Subversion Repositories</a></li>
         </ul>
     </li>
     
     <li class="dropdown" data-dropdown="dropdown">
-        <a href="#" class="dropdown-toggle" title="Social Media">Social Media</a>
+        <a href="#" class="dropdown-toggle" title="Social Media">
+            Social Media
+            <b class="caret"></b>
+        </a>
         <ul class="dropdown-menu">
             <li><a href="https://twitter.com/optiz0r" title="optiz0r on Twitter">Twitter</a></li>
             <li><a href="https://plus.google.com/104283756158326784792/about" title="Ben Roberts on Google+">Google+</a></li>

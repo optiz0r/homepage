@@ -7,7 +7,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="span10 column">
+        <div class="span7 column">
             <h3>Features</h3>
             <ul>
                 <li>Database abstraction</li>
@@ -20,13 +20,13 @@
                 <li>Input Validation</li>
             </ul>
         </div>
-        <div class="span6 column">
-            <img class="span6" src="{$base_uri}images/sihnon-framework/overview.png" alt="SihnonFramework Overview" />
+        <div class="span5 column">
+            <img class="span5" src="{$base_uri}images/sihnon-framework/overview.png" alt="SihnonFramework Overview" />
         </div>
     </div>
     
     <div class="row">
-        <div class="span16">
+        <div class="span12">
             <h3>Source</h3>
             <p>
                 View or clone a copy of the Git repositories from one of the mirrors listed below:
