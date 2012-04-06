@@ -22,7 +22,7 @@
     </p>
     
     <p>
-        You can contact me via {mailto address="me@benroberts.net" encode="hex"}, or via one of the Social Media sites listedon the top bar.
+        You can contact me via {mailto address="me@benroberts.net" encode="hex"}, or via one of the Social Media sites listed on the top bar.
     </p>
     
     
