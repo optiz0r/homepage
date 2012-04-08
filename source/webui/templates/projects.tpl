@@ -17,6 +17,9 @@
     
     <dt><a href="{$base_uri}projects/status-board/" title="StatusBoard">StatusBoard</a></dt>
     <dd>PHP/Web tool for displaying service status and incident details.</dd>
+
+    <dt><a href="{$base_uri}projects/scgen/" title="Cisco Switch Config Generator">Cisco Switch Configuration Generator</a></dt>
+    <dd>HTML/Javascript GUI tool for generating configuration files for Cisco switches.</dd>
 </dl>
 
 <h2>University Projects</h2>
