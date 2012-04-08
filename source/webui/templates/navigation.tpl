@@ -22,6 +22,7 @@
             <li><a href="{$base_uri}projects/sihnon-framework/" title="Sihnon Framework">Sihnon Framework</a></li>
             <li><a href="{$base_uri}projects/ripping-cluster/" title="RippingCluster">RippingCluster</a></li>
             <li><a href="{$base_uri}projects/status-board/" title="StatusBoard">StatusBoard</a></li>
+            <li><a href="{$base_uri}projects/scgen/" title="SCGen">Cisco Switch Configuration Generator</a></li>
             <li><a href="{$base_uri}projects/3yp/" title="Third Year Project">Third Year Project</a></li>
         </ul>
     </li>
