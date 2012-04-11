@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{$title}</title>
+        <title>{if $title}{$title} -{/if} Ben Roberts</title>
         
         <!-- JQuery //-->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -42,7 +42,7 @@
                 <div class="span12" id="header">
                     <h1>
                         Ben Roberts
-                        <small>MEng Computer Science @ ecs.soton.ac.uk</small>
+                        <small>Network Projects Engineer @ Atos</small>
                     </h1>
                 </div>
             </div>
