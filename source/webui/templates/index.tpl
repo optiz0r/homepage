@@ -42,7 +42,7 @@
                 <div class="span12" id="header">
                     <h1>
                         Ben Roberts
-                        <small>MEng Computer Science @ ecs.soton.ac.uk</small>
+                        <small>Network Projects Engineer @ Atos</small>
                     </h1>
                 </div>
             </div>
