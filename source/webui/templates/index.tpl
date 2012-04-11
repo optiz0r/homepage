@@ -39,7 +39,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="span12">
+                <div class="span12" id="header">
                     <h1>
                         Ben Roberts
                         <small>MEng Computer Science @ ecs.soton.ac.uk</small>
