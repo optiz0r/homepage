@@ -31,7 +31,12 @@
         color: #333333;
         text-align: center;
     }
-    
+
+    h1 {
+        padding: 1.0em;
+        text-align: center;
+    }
+
     /*
         Images
     */
@@ -73,17 +78,27 @@
     .no-print {
         display: none;
     }
+
+    .force-break {
+        page-break-after: always;
+
+        /* workaround for page break control not being supported in wkhtmltopdf */
+        min-height: 3.0cm;
+    }
     
     body {
         margin: 0;
+
+        /* workaround display bug in wkhtmltopdf */
+        min-height: 100cm;
     }
-    
+
+    a {
+        color: inherit;
+    }
+
     #page_content {
         margin-left: 1.5em;
-    }
-    
-    #skills {
-        page-break-before: always;
     }
     
 }

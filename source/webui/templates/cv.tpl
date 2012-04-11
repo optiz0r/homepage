@@ -21,19 +21,25 @@
         <div class="span2 column">
             <h3>Personal Information</h3>
         </div>
-        <div class="span10 column">
-            <dl>
+        <div class="span5 column">
+            <dl class="dl-horizontal">
                 <dt>Full Name</dt>
                 <dd><p>Benjamin Austin Roberts</p></dd>
-                
-                <dt>Email Address</dt>
-                <dd><p>{mailto address="me@benroberts.net" encode="hex"}</p></dd>
-                
+
                 <dt>Date of Birth</dt>
                 <dd><p>09/09/1986</p></dd>
 
-                <dt>Nationality</dt>
-                <dd><p>British</p></dd>
+                <dt>Location</dt>
+                <dd><p>Hampshire, United Kingdom</p></dd>
+            </dl>
+        </div>
+        <div class="span5 column">
+            <dl class="dl-horizontal">
+                <dt>Email Address</dt>
+                <dd><p>{mailto address="me@benroberts.net" encode="hex"}</p></dd>
+                
+                <dt>Portfolio</dt>
+                <dd><p><a href="https://www.benroberts.net/" title="Portfolio">https://www.benroberts.net/</a></p></dd> 
             </dl>
         </div>
     </div>
@@ -50,23 +56,32 @@
                         <small>July 2010 - Present</small>
                     </h4>
                     <h5>Network Technical Specialist - Major Projects</h5>
-                    <p>
-                        Design and implementation of network solutions for Atos customers in the Transport and Financial
-                        Services industries. 
-                    </p>
-                    <p>
-                        Installed, configured and managed an out of band console service for remote management of core
-                        infrastructure across multiple datacentres.
-                    </p>
-                    <p>
-                        Designed, built and operated an 8-rack development lab containing ~70 mixed-vendor devices
-                        for validation of a large-scale internal project.
-                    </p>
-                    <p>
-                        Lead planner for physical aspects of 5-datacentre core infrastructure upgrade including
-                        circuit delivery, rack and equipment placement, power/network connectivity, and logistics 
-                        management for ~3000 items of hardware.
-                    </p>
+                    <ul>
+                        <li>
+                            Design and implementation of network solutions for Atos customers in the Transport and Financial
+                            Services industries.
+                        </li>
+                        <li>
+                            Lead planner for all physical aspects of 5-datacentre core infrastructure upgrade including
+                            WAN circuit delivery, rack and equipment placement, power &amp; network connectivity, build validation,
+                            and logistics management for ~3000 items of hardware.
+                        </li>
+                        <li>
+                            Designed, built and operated a large development lab for validation of a large-scale internal project, containing:
+                            <ul>
+                                <li>~70 mixed-vendor devices across 8 fully populated, full-sized racks</li>
+                                <li>500 copper &amp; fibre connections</li>
+                                <li>&gt;2.5km of network cabling</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Installation, configuration and maintenance of an out of band management service for remote console access
+                            to hundreds of core infrastructure devices across multiple datacentres and unmanned sites.
+                        </li>
+                        <li>
+                            On-call proximity support, providing out-of-hours coverage for any incidents requiring a hands-on activity at the local data centre.
+                        </li>
+                    </ul>
                 </li>
                 
                 <li>
@@ -75,39 +90,52 @@
                         <small>June 2008 - May 2009</small>
                     </h4>
                     <h5>Internet Services Developer</h5>
-                    <p>
-                        Penetration testing of web applications and hardware devices for large financial 
-                        institutions. Development of a perl/sql based data mining survey. Take-downs of 
-                        phishing sites (via legal channels), and other anti-phishing related activities. 
-                        Windows Server/Active Directory/Exchange administration (including migrations to 
-                        newer hardware/operating system versions).
-                    </p>
+                    <ul>
+                        <li>
+                            Penetration testing of web applications and hardware devices for large financial institutions. 
+                        </li>
+                        <li>
+                            Development of a perl/sql based data mining survey.
+                        </li>
+                        <li>
+                            Take-downs of phishing sites (via legal channels), and other anti-phishing related activities.
+                        </li>
+                        <li>
+                            Windows Server/Active Directory/Exchange administration (including migrations to newer hardware/operating system versions).
+                        </li>
+                    </ul>
                 </li>
                 
                 <li>
                     <h4>
                         NXP Semiconductors
-                        <small></small>
+                        <small>June 2007 - September 2007</small>
                     </h4>
                     <h5>Student Intern</h5>
-                    <p>
-                        Maintained and extended an existing internal web application using PHP and
-                        Perl. Installed and configured a streaming video on demand server on Red
-                        Hat Linux, with an embedded Linux client running on a Set Top Box.
-                    </p>
+                    <ul>
+                        <li>
+                            Maintained and extended an existing internal web application using PHP and Perl.
+                        </li>
+                        <li>
+                            Installion and configuration of a streaming video-on-demand server on Red
+                            Hat Linux, with embedded Linux clients running on set-top boxes.
+                        </li>
+                    </ul>
                 </li>
                 
                 <li class="no-print">
                     <h4>
-                        Electronics and Computer Science Faculty, University of Southampton
+                        School of Electronics and Computer Science, University of Southampton
                         <small>September 2006 - June 2010</small>
                     </h4>
                     <h5>Helpdesk Assistant</h5>
-                    <p>
-                        Worked in the University's Computer Science Helpdesk on an ad-hoc basis,
-                        performing day-to-day tasks to help the System Administrators. This included 
-                        repairing and reinstalling the operating systems on lab PCs.
-                    </p>
+                    <ul>
+                        <li>
+                            Working in the University's Computer Science Helpdesk on an ad-hoc basis,
+                            performing day-to-day tasks to help the full-time System Administrators. This included 
+                            repairing and reinstalling the operating systems on lab PCs.
+                        </li>
+                    </ul>
                 </li>
             </ol>
         </div>
@@ -122,12 +150,14 @@
                 <thead>
                     <tr>
                         <th>Certification</th>
+                        <th>Vendor</th>
                         <th>Date</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>CCNA</th>
+                        <td><strong>CCNA</strong></td>
+                        <td>Cisco</td>
                         <td>Feb 2010 - Present</td>
                     </tr>
                 </tbody>
@@ -156,10 +186,10 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th>
-                                    Computer Science<br />
-                                    <small>with Distributed Systems and Networks</small>
-                                </th>
+                                <td>
+                                    <strong>Computer Science</strong><br />
+                                    <em>with Distributed Systems and Networks</em>
+                                </td>
                                 <td>MEng</td>
                                 <td><strong>First Class</strong></td>
                             </tr>
@@ -183,22 +213,22 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <th>Mathematics</th>
+                                <td><strong>Mathematics</strong></td>
                                 <td>A-Level</td>
                                 <td><strong>A</strong></td>
                             </tr>
                             <tr>
-                                <th>Physics</th>
+                                <td><strong>Physics</strong></td>
                                 <td>A-Level</td>
                                 <td><strong>A</strong></td>
                             </tr>
                             <tr>
-                                <th>Computing</th>
+                                <td><strong>Computing</strong></td>
                                 <td>A-Level</td>
                                 <td><strong>A</strong></td>
                             </tr>
                             <tr>
-                                <th>Further Mathematics</th>
+                                <td><strong>Further Mathematics</strong></td>
                                 <td>AS-Level</td>
                                 <td><strong>B</strong></td>
                             </tr>
@@ -209,7 +239,12 @@
             </ol>
         </div>
     </div>
-        
+
+    <!-- Forced page break -->
+    <div class="force-break">
+        <span style="display: none;">&nbsp;</span>
+    </div>
+
     <div class="row" id="skills">
         <div class="span2 column">
             <h3>Skills</h3>
