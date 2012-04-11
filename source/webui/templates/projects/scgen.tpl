@@ -19,12 +19,18 @@
                 <li>Customisable using an external JSON file</li>
                 <li>Tested on chromium 18
             </ul>
+
+            <h3>Demo</h2>
+            <p>
+                A copy of this tool is hosted at 
+                <a href="http://demo.sihnon.net/scgen/" title="SCGen Demo">http://demo.sihnon.net/scgen/</a>.
+            </p>
         </div>
         <div class="span5 column">
             <img class="span5" src="{$base_uri}images/scgen/overview.png" alt="SCGen Overview" />
         </div>
     </div>
-    
+
     <div class="row">
         <div class="span12">
             <h3>Source</h3>
