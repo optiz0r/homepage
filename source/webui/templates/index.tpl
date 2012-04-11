@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>{$title}</title>
+        <title>{if $title}{$title} -{/if} Ben Roberts</title>
         
         <!-- JQuery //-->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
