@@ -4,6 +4,8 @@
     <p>
         I currently work as a Network Projects engineer for <a href="http://uk.atos.net/en-uk/" title="Atos - United Kingdom">Atos</a>
         in the Major Projects division. My role here includes design and implementation of LAN and WAN systems in Data Centre environments.
+        I have recently completed the Atos graduate programme, and am currently involved in a major internal infrastructure overhaul spanning
+        five sites for which I have been doing all the physical layer design and implementation.
     </p>
     <p>
         I previously worked for <a href="http://www.netcraft.com/" title="Netcraft homepage">Netcraft</a> in Bath,
@@ -13,7 +15,7 @@
         and performing occasional <a href="http://audited.netcraft.com/web-application" title="Netcraft's Application Penetration & Security Testing">penetration tests</a> against web applications for financial institutions.
     </p>
     <p>
-        I am a former graudate of Computer Science from ECS (University of Southampton) which I studied to the Masters level.
+        I am a former graudate of ECS (University of Southampton), earning a First in Computer Science with Distributed Systems and Networks to the Masters level.
     </p>
     
     <p>
@@ -23,7 +25,5 @@
     
     <p>
         You can contact me via {mailto address="me@benroberts.net" encode="hex"}, or via one of the Social Media sites listed on the top bar.
-    </p>
-    
-    
+    </p> 
 </div>
