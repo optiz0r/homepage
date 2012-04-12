@@ -71,6 +71,15 @@
     #cv h4 {
         margin-top: 0.75em;
     }
+
+    /* Thumbnails */
+    #rsdss-screenshots li .thumbnail img {
+        max-height: 13em;
+    }
+
+    .thumbnail h5 {
+        clear: both;
+    }
 }
 
 @media print {

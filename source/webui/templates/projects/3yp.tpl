@@ -9,6 +9,8 @@
     In the meantime, for anyone who might be interested in the rationale, design decisions and implementation detail, please see the
     <a href="{$base_uri}files/3yp/project-report.pdf" title="RSDSS Post Project Report">post-project report</a>.
 </p>
+
+<h3>Releases</h3>
 <p>
     The project was not completed beyond an alpha stage, so the binaries below are strictly for testing purposes only and are definitely
     not ready for any kind of production use. These are provided as-is with no guarantees for functionality or safetly!
@@ -19,3 +21,120 @@
         <li><a href="{$base_uri}files/3yp/rsdss-1.0.2-win32.zip" title="Windows 32-bit zip archive">rsdss-1.0.2-win32.zip</a></li>
     </ul>
 </p>
+
+<h3>Screenshots</h3>
+<ul id="rsdss-screenshots" class="thumbnails">
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/wizard-name.png" alt="Name selection wizard" />
+            <a href="{$base_uri}images/3yp/wizard-name.png" class="viewmore" title="Name selection wizard">View larger</a>
+            <h5>Wizard - Name selection</h5>
+            <p>
+                The first question in the startup wizard - selecting a name for yourself so as to be recognisable by other people.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/wizard-shares.png" alt="Shared folder selection wizard" />
+            <a href="{$base_uri}images/3yp/wizard-shares.png" class="viewmore" title="Shared folder selection wizard">View larger</a>
+            <h5>Wizard - Shared folders</h5>
+            <p>
+                The second question in the startup wizard - selecting the folders that will be shared to the network.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/new-peer.png" alt="New Peer dialog" />
+            <a href="{$base_uri}images/3yp/new-peer.png" class="viewmore" title="New peer dialog">View larger</a>
+            <h5>New Peer</h5>
+            <p>
+                The dialog presented when a new, previously unknown person wishes to start sharing files with you.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/people.png" alt="People" />
+            <a href="{$base_uri}images/3yp/people.png" class="viewmore" title="People">View larger</a>
+            <h5>People</h5>
+            <p>
+                Settings dialog showing the list of all people you've communicated with previously, and options to change the trust level
+                for each person - allowing people you trust to introduce new peers to you automatically.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/introductions.png" alt="Introductions" />
+            <a href="{$base_uri}images/3yp/introductions.png" class="viewmore" title="Introductions">View larger</a>
+            <h5>Introductions</h5>
+            <p>
+               Settings dialog showing the list of users who have verified your identity which is automatically sent to all new peers
+               you wish to communicate with in an attempt to find some common friends and avoid the need to ask any security questions.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/changed-peer.png" alt="Changed peer warning" />
+            <a href="{$base_uri}images/3yp/changed-peer.png" class="viewmore" title="Changed peer warning">View larger</a>
+            <h5>Changed Peer</h5>
+            <p>
+                Warning dialog displayed when the key for a previously known person has changed. This could be innocous such as a reinstall 
+                or name collision or could be the sign of a malicious user trying to access unauthorised shared files.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/shares.png" alt="Shares" />
+            <a href="{$base_uri}images/3yp/shares.png" class="viewmore" title="Shares">View larger</a>
+            <h5>shares</h5>
+            <p>
+                Settings dialog showing the list of shared folders.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/browser.png" alt="Browser" />
+            <a href="{$base_uri}images/3yp/browser.png" class="viewmore" title="Browser">View larger</a>
+            <h5>Browser</h5>
+            <p>
+                File browser allowing you to list the files shared by other users and download to your own machine.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/cli.png" alt="Command line interface" />
+            <a href="{$base_uri}images/3yp/cli.png" class="viewmore" title="Command line interface">View larger</a>
+            <h5>CLI</h5>
+            <p>
+                Screenshot showing the simple CLI tool for displaying the shares of a remote user and downloading files.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/security.png" alt="Security" />
+            <a href="{$base_uri}images/3yp/security.png" class="viewmore" title="Security">View larger</a>
+            <h5>Security</h5>
+            <p>
+                Settings dialog showing the security tab to assign permissions to different users and finely control which files can be accessed.
+            </p>
+        </div>
+    </li>
+    <li class="span4">
+        <div class="thumbnail">
+            <img src="{$base_uri}images/3yp/settings.png" alt="Advanced Settings" />
+            <a href="{$base_uri}images/3yp/settings.png" class="viewmore" title="Advanced Settings">View larger</a>
+            <h5>Advanced Settings</h5>
+            <p>
+                Settings dialog granting options to control advanced options within the application.
+            </p>
+        </div>
+    </li>
+</ul>
