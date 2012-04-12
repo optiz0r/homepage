@@ -7,10 +7,12 @@
 
 <div class="container">
     <div class="row">
-        <div class="span8 column">
-            <img class="span8" src="{$base_uri}images/ripping-cluster/overview.png" alt="RippingCluster Overview" />
+        <div class="span6 column">
+            <div class="thumbnail">
+                <img src="{$base_uri}images/ripping-cluster/overview.png" alt="RippingCluster Overview" />
+            </div>
         </div>
-        <div class="span8 column">
+        <div class="span6 column">
             <h3>Features</h3>
             <ul>
                 <li>Multiple machines can participate in transcoding jobs using a worker daemon.</li>
@@ -22,7 +24,7 @@
     </div>
     
     <div class="row">
-        <div class="span16">
+        <div class="span12">
             <h3>Source</h3>
             <p>
                 View or clone a copy of the Git repositories from one of the mirrors listed below:
@@ -33,4 +35,31 @@
             </ul>
         </div>
     </div>
+
+    <div class="row">
+        <div class="span12">
+            <h3>Screenshots</h3>
+            <ul class="thumbnails">
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img src="{$base_uri}images/ripping-cluster/setup-rip.png" alt="Setup Rip" />
+                        <a href="{$base_uri}images/ripping-cluster/setup-rip.png" class="viewmore">View larger</a>
+                        <h5>Setup Rip</h5>
+                        <p>
+                            Configure the titles, audio and subtitle tracks to be ripped.
+                        </p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img src="{$base_uri}images/ripping-cluster/jobs.png" alt="Job history" />
+                        <a href="{$base_uri}images/ripping-cluster/jobs.png" class="viewmore">View larger</a>
+                        <h5>Job History</h5>
+                        <p>
+                            View all jobs in detail, with options to re-run or remove info on past jobs.
+                        </p>        
+                    </div>
+                </li>
+            </ul>
+        </div>
 </div>

@@ -43,7 +43,6 @@ class Homepage_Main extends SihnonFramework_Main {
                  
                 $this->smarty->assign('base_uri', $this->base_uri);
                 $this->smarty->assign('base_url', static::absoluteUrl(''));
-                $this->smarty->assign('title', 'Homepage');
         
             } break;
         
