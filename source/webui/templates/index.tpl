@@ -15,13 +15,8 @@
         
         <!-- Bootstrap //-->
         <link rel="stylesheet/less" href="{$base_uri}less/bootstrap.less" media="all" />
-        <link type="text/css" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet" />
-        <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-alerts.js"></script>
-        <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-twipsy.js"></script>
-        <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-popover.js"></script>
-        <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-dropdown.js"></script>
-        <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-tabs.js"></script>
-        <script type="text/javascript" src="{$base_uri}scripts/3rdparty/bootstrap-modal.js"></script>
+        <link type="text/css" href="{$base_uri}lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <script type="text/javascript" src="{$base_uri}lib/bootstrap/js/bootstrap.min.js"></script>
         
         <!-- Local //-->
         <link rel="stylesheet" type="text/css" href="{$base_uri}styles/normal.css" />
@@ -29,7 +24,7 @@
 
     </head>
     <body>
-        <div class="navbar navbar-fixed-top no-print">
+        <div class="navbar navbar-fixed-top navbar-inverse no-print">
             <div class="navbar-inner">
                 <div class="container-fluid">
                     {$page->include_template('navigation')}
