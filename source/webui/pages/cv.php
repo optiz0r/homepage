@@ -2,6 +2,6 @@
 
 $smarty = Homepage_Main::instance()->smarty();
 
-$smarty->assign('title', 'Projects');
+$smarty->assign('title', 'CV');
 
 ?>
