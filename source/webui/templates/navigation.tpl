@@ -9,8 +9,8 @@
         <a href="{$base_uri}cv/" title="CV">CV</a>
     </li>
     
-    <li class="dropdown {if $requested_page == "projects"}active{/if}" data-dropdown="dropdown">
-        <a href="#" class="dropdown-toggle" title="Projects">
+    <li class="dropdown {if $requested_page == "projects"}active{/if}">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Projects">
             Projects
             <b class="caret"></b>
         </a>
@@ -27,8 +27,8 @@
         </ul>
     </li>
     
-    <li class="dropdown" data-dropdown="dropdown">
-        <a href="#" class="dropdown-toggle" title="Code">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Code">
             Code
             <b class="caret"></b>
         </a>
@@ -39,8 +39,8 @@
         </ul>
     </li>
     
-    <li class="dropdown" data-dropdown="dropdown">
-        <a href="#" class="dropdown-toggle" title="Social Media">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Social Media">
             Social Media
             <b class="caret"></b>
         </a>
