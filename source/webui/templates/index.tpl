@@ -4,8 +4,8 @@
         <title>{if $title}{$title} -{/if} Ben Roberts</title>
         
         <!-- JQuery //-->
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-        <link type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/smoothness/jquery-ui.css" rel="Stylesheet" />        
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <link type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css" rel="Stylesheet" />        
         <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
         <!-- JQuery Plugins //-->
         <script type="text/javascript" src="{$base_uri}scripts/3rdparty/jquery.chained.js"></script>
