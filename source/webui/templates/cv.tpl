@@ -3,10 +3,10 @@
 <div class="container" id="cv">
 
     <div class="row no-print">
-        <div class="span2 column">
+        <div class="span3 column">
             <h3>Download</h3>
         </div>
-        <div class="span10 column">
+        <div class="span9 column">
             <p>
                 <a href="{$base_uri}files/BenRobertsCv.pdf" title="Ben Roberts' CV">
                     <img src="{$base_uri}images/acrobat.png" alt="Download PDF copy of Ben Roberts' CV" style="width: 3em; height: 3em; vertical-align: middle;" />
@@ -45,10 +45,10 @@
     </div>
         
     <div class="row" id="employment">
-        <div class="span2 column">
+        <div class="span3 column">
             <h3>Employment</h3>
         </div>
-        <div class="span10 column">
+        <div class="span9 column">
             <ol class="employment">
                 <li>
                     <h4>
@@ -142,10 +142,10 @@
     </div>
     
     <div class="row" id="certification">
-        <div class="span2 column">
+        <div class="span3 column">
             <h3>Certification</h3>
         </div>
-        <div class="span10 column">
+        <div class="span9 column">
             <table class="table">
                 <thead>
                     <tr>
@@ -166,10 +166,10 @@
     </div>
         
     <div class="row" id="education">
-        <div class="span2 column">
+        <div class="span3 column">
             <h3>Education</h3>
         </div>
-        <div class="span10 column">
+        <div class="span9 column">
             <ol class="education">
                 <li>
                     <h4>
@@ -246,10 +246,10 @@
     </div>
 
     <div class="row" id="skills">
-        <div class="span2 column">
+        <div class="span3 column">
             <h3>Skills</h3>
         </div>
-        <div class="span10 column">
+        <div class="span9 column">
             <dl>
                 <dt>Networking<dt>
                 <dd>
@@ -332,10 +332,10 @@
     </div>
         
     <div class="row" id="interests">
-        <div class="span2 column">
+        <div class="span3 column">
             <h3>Interests</h3>
         </div>
-        <div class="span10 column">
+        <div class="span9 column">
             <p>
                 I am a supporter of the opensource movement, and try to use free/libre software
                 and code where I can. I also release all my code under free licenses where possible
