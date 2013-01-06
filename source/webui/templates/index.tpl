@@ -91,7 +91,7 @@
 
         <!-- Piwik -->
         <script type="text/javascript">
-        var pkBaseURL = (("https:" == document.location.protocol) ? "https://miranda.sihnon.net/logs/" : "http://miranda.sihnon.net/logs/");
+        var pkBaseURL = (("https:" == document.location.protocol) ? "https://admin.sihnon.net/stats/" : "https://admin.sihnon.net/stats/");
         document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
         </script><script type="text/javascript">
             try {
@@ -99,7 +99,7 @@
                 piwikTracker.trackPageView();
                 piwikTracker.enableLinkTracking();
             } catch( err ) {}
-        </script><noscript><p><img src="http://miranda.sihnon.net/logs/piwik.php?idsite=3" style="border:0" alt=""/></p></noscript>
+        </script><noscript><p><img src="https://admin.sihnon.net/stats/piwik.php?idsite=3" style="border:0" alt=""/></p></noscript>
         <!-- End Piwik Tag -->
     </body>
 </html>
