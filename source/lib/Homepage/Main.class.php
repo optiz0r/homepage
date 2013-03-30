@@ -32,7 +32,7 @@ class Homepage_Main extends SihnonFramework_Main {
                 $this->smarty->compile_dir  = static::makeAbsolutePath($smarty_tmp . '/templates');
                 $this->smarty->cache_dir    = static::makeAbsolutePath($smarty_tmp . '/cache');
                 $this->smarty->config_dir   = static::makeAbsolutePath($smarty_tmp . '/config');
-                $this->smarty->plugins_dir[]= static::makeAbsolutePath('../source/smarty/plugins');
+                $this->smarty->addPluginsDir(static::makeAbsolutePath('../source/smarty/plugins'));
                  
                 $this->smarty->registerPlugin('modifier', 'formatDuration', array('Homepage_Main', 'formatDuration'));
                 $this->smarty->registerPlugin('modifier', 'formatFilesize', array('Homepage_Main', 'formatFilesize'));
@@ -43,6 +43,7 @@ class Homepage_Main extends SihnonFramework_Main {
                  
                 $this->smarty->assign('base_uri', $this->base_uri);
                 $this->smarty->assign('base_url', static::absoluteUrl(''));
+                $this->smarty->assign('title', 'Homepage');
         
             } break;
         
