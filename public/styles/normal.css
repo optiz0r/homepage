@@ -99,7 +99,7 @@
         margin: 0;
 
         /* workaround display bug in wkhtmltopdf */
-        min-height: 100cm;
+        /*min-height: 100cm;*/
     }
 
     a {
@@ -110,4 +110,12 @@
         margin-left: 1.5em;
     }
     
+    #cv div.row {
+        margin-bottom: 0.25em;
+    }
+    
+    #cv h4 {
+        margin-top: 0.25em;
+    }
+
 }
