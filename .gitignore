@@ -2,3 +2,13 @@
 .buildpath
 .project
 .settings
+
+# KDevelop project
+*.kdev4
+
+# Backup files
+*~
+
+# Site-dependent temporary files
+/log
+/temp
