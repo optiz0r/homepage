@@ -123,7 +123,7 @@
                         <small>June 2007 - September 2007</small>
                     </h4>
                     <h5>Student Intern</h5>
-                    <ul>
+                    <ul class="no-print">
                         <li>
                             Maintained and extended an existing internal web application using PHP and Perl.
                         </li>
@@ -134,13 +134,13 @@
                     </ul>
                 </li>
                 
-                <li class="no-print">
+                <li>
                     <h4>
                         School of Electronics and Computer Science, University of Southampton
                         <small>September 2006 - June 2010</small>
                     </h4>
                     <h5>Helpdesk Assistant</h5>
-                    <ul>
+                    <ul class="no-print">
                         <li>
                             Working in the University's Computer Science Helpdesk on an ad-hoc basis,
                             performing day-to-day tasks to help the full-time System Administrators. This included 
@@ -214,7 +214,7 @@
                         <small>September 2003 - June 2005</small>
                     </h4>
                     
-                    <table class="table table-condensed">
+                    <table class="table table-condensed no-print">
                         <thead>
                             <tr>
                                 <th>Subject</th>
