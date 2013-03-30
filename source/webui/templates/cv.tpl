@@ -52,8 +52,19 @@
             <ol class="employment">
                 <li>
                     <h4>
+                        GSA Capital Partners LLP
+                        <small>November 2012 - Present</small>
+                    </h4>
+                    <h5>Systems Administrator</h5>
+                    <ul>
+                        <li>Managing Unix, Linux and Windows systems, networking and datacentre deployment.</li>
+                        <li>IT Support.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>
                         Atos IT Services UK
-                        <small>July 2010 - Present</small>
+                        <small>July 2010 - November 2012</small>
                     </h4>
                     <h5>Network Technical Specialist - Major Projects</h5>
                     <ul>
@@ -176,7 +187,7 @@
                         University of Southampton
                         <small>October 2005 - June 2010</small>
                     </h4>
-                    <table class="table">
+                    <table class="table table-condensed">
                         <thead>
                             <tr>
                                 <th>Subject</th>
@@ -203,7 +214,7 @@
                         <small>September 2003 - June 2005</small>
                     </h4>
                     
-                    <table class="table">
+                    <table class="table table-condensed">
                         <thead>
                             <tr>
                                 <th>Subject</th>
@@ -279,10 +290,12 @@
                     <p>
                         Experience with:
                         <ul>
-                            <li>Installation, configuration and operation of Operating Systems (Linux [many distributions], Windows, Mac OS X).</li>
-                            <li>Writing and maintaining Linux software packages and package repositories (Gentoo Portage, Sabayon Entropy)</li>
-                            <li>System automation (Puppet, Molecule, Kickstart).</li>
+                            <li>Installation, configuration and operation of Operating Systems (Linux [many distributions], Windows, Mac OS X)</li>
+                            <li>Writing and maintaining Linux software packages and package repositories (Gentoo Portage, Sabayon Entropy, RPM)</li>
+                            <li>System automation (Puppet, Molecule, Kickstart)</li>
                             <li>Virtualisation (KVM, libvirt, Ganeti, VMWare/ESX)</li>
+                            <li>Monitoring (Nagios, Icinga, and automation of monitoring deployments)</li>
+                            <li>Backup systems (BackupPC, Bacula)</li>
                         </ul>
                     </p>
                     <p>
@@ -299,6 +312,9 @@
                         Many years' experience creating both simple and complex dynamic systems using
                         PHP. Emphasis on writing secure code.
                     </p>
+                    <p>
+                        More recently, experience with Python and Django.
+                    </p>
                 </dd>
                 
                 <dt>Application Programming</dt>
@@ -307,6 +323,8 @@
                         Proficient with C/C++, Qt. Basic experience with Perl. Able to read and write many
                         other languages, including Java, Ruby and UNIX Shell scripting.
                     </p>
+                </dd>
+
                 <dt>Databases</dt>
                 <dd>
                     <p>
@@ -320,7 +338,7 @@
                     <p>
                         Experience with:
                         <ul>
-                            <li>IDEs (Eclipse SDK, Microsoft Visual Studio)</li>
+                            <li>IDEs (KDevelop, Eclipse SDK, Microsoft Visual Studio)</li>
                             <li>UNIX build environments (Vim, gcc/g++, make)</li>
                             <li>Version Control systems (Git, Subversion)</li>
                         </ul>

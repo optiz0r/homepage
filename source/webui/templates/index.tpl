@@ -37,7 +37,7 @@
                 <div class="span12" id="header">
                     <h1>
                         Ben Roberts
-                        <small>Network Projects Engineer @ Atos</small>
+                        <small>Systems Administrator @ GSA Capital</small>
                     </h1>
                 </div>
             </div>
