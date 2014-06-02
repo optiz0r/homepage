@@ -7,12 +7,12 @@
 </p>
 
 <dl>
-    <dt><a href="http://packages.sihnon.net/standard/packages.sihnon.net/" title="Common Repository">packages.sihnon.net</a></dt>
+    <dt><a href="http://pkg.sihnon.net/standard/packages.sihnon.net/" title="Common Repository">packages.sihnon.net</a></dt>
     <dd>Packages suitable for machines of any designation.</dd>
     
-    <dt><a href="http://packages.sihnon.net/standard/server.packages.sihnon.net/" title="Server Repository">server.packages.sihnon.net</a></dt>
+    <dt><a href="http://pkg.sihnon.net/standard/server.packages.sihnon.net/" title="Server Repository">server.packages.sihnon.net</a></dt>
     <dd>Packages suitable for server machines (without X).</dd>
     
-    <dt><a href="http://packages.sihnon.net/standard/desktop.packages.sihnon.net/" title="Desktop Repository">desktop.packages.sihnon.net</a></dt>
+    <dt><a href="http://pkg.sihnon.net/standard/desktop.packages.sihnon.net/" title="Desktop Repository">desktop.packages.sihnon.net</a></dt>
     <dd>Packages suitable for desktop machines (with X).</dd>
 </dl>
